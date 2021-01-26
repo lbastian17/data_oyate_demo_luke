@@ -19,26 +19,6 @@
 <body>
 
     <div class="container-fluid">
-        <!-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-            <div class="container">
-                <a class="navbar-brand" href="#">Wakashan AI Consortium</a>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    </ul>
-                </div>
-            </div>
-        </nav> -->
         <div class="nav-wrapper">
             <div class="left-side">
               <div class="nav-link-wrapper active-nav-link">
@@ -64,7 +44,7 @@
                 <p>If you're ready to begin recording, please enter your name and email below!</p>
                 
                 <div class=form_format>
-                    <form action="recording.html">
+                    <form action="index.html">
                         <label for="fname"><b>First Name</b></label>
                         <input type="text" id="fname" name="firstname" placeholder="Your name..">
                         <label for="lname"><b>Last Name</b></label>
@@ -75,6 +55,7 @@
                         <input type="submit" value="Start Recording!">
                     </form>
                 </div>
+                <button id="submit" type="button">Click Me!</button>
             </div>
 
             <div class="footer">
@@ -86,7 +67,13 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script>
-        console.log("I am Luke")
+        console.log("I am Luke");
+
+        var counter = 0;
+        $("#record").click(function(){
+            console.log("submit: "+counter)
+            counter ++;
+        })
     </script>
 </body>
 </html>
