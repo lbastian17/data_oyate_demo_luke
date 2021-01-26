@@ -1,0 +1,15 @@
+{
+    "set_1": [
+        {"phrase" : "I like money", "id" : "i_like_money_phrase"},
+        {"phrase" : "I like cows", "id" : "i_like_cows_phrase"},
+        {"phrase" : "I like cats", "id" : "i_like_cats_phrase"},
+        {"phrase" : "I like dogs", "id" : "i_like_dogs_phrase"}
+    ],
+
+    "set 2" : [
+        {"phrase" : "he like money", "id" : "he_like_money_phrase"},
+        {"phrase" : "she like cows", "id" : "she_like_cows_phrase"},
+        {"phrase" : "they like cats", "id" : "they_like_cats_phrase"},
+        {"phrase" : "we like dogs", "id" : "we_like_dogs_phrase"}
+    ]
+}
