@@ -70,9 +70,19 @@
         console.log("I am Luke");
 
         var counter = 0;
+        var emailInput = $("#email");
         $("#submit").click(function(){
+            var input = {};
+
             console.log("submit: "+counter)
             counter ++;
+
+            console.log(emailInput.val());
+            input.email = emailInput.val();
+            input.fname = $("#fname").val()
+            input.lname = $("#lname").val()
+
+            console.log(input)
         })
     </script>
 </body>
