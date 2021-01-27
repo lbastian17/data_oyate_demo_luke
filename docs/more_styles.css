@@ -1,6 +1,6 @@
 body {
     font-family: "Lato", sans-serif;
-    background-color:powderblue;
+    background-color: rgb(3, 131, 198);
   }
   
 .container-fluid {
@@ -61,11 +61,6 @@ color: white;
     color: white;
 }
 
-/* #banner {
-    background: url(pictures/NeahBay1skinny.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-} */
 .textbox {   
     padding-top: 0px;
     padding-bottom:0px;
