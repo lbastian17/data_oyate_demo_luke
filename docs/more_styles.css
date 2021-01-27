@@ -12,7 +12,10 @@ body {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 30px 5%;
+    padding-top: 30px;
+    padding-right: 5%;
+    padding-bottom: 30px;
+    padding-left: 5%;
     background-color: black;
   }
   
