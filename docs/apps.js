@@ -1,3 +1,5 @@
+// Credit: https://github.com/mdn/web-dictaphone/tree/gh-pages/scripts
+
 // set up basic variables for app
 
 const record = document.querySelector('.record');
