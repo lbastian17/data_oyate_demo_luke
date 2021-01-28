@@ -1,6 +1,6 @@
 body {
     font-family: "Lato", sans-serif;
-    background-color: rgb(3, 131, 198);
+    background-color: rgb(9, 115, 186);
   }
   
 .container-fluid {
@@ -89,7 +89,7 @@ color: white;
 }
 
 .form_format {
-    text-align:center;
+    text-align:left;
     margin-left: 15%;
     margin-right: 15%;
 }
