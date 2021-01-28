@@ -48,15 +48,42 @@
                 <p>If you're ready to begin recording, please enter your name and email below!</p>
                 
                 <div class=form_format>
-                    <form action="recording.html">
-                        <label for="fname"><b>First Name</b></label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                        <label for="lname"><b>Last Name</b></label>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                        <label for="email"><b>Email</b></label>
-                        <input type="text" id="email" name="email" placeholder="name@example.com">
-
-                        <input type="submit" value="Start Recording!">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">First Name</label>
+                          <input type="text" class="form-control" id="fname" name="firstname" placeholder="Your name..">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="form-control">
+                        </div>
+                        <div class="col-md-5">
+                          <label for="inputCity" class="form-label">Email</label>
+                          <input type="text" id="email" name="email" placeholder="name@example.com" class="form-control">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputZip" class="form-label">Years Speaking Makah</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Less than 1 Year</option>
+                            <option>1-3 Years</option>
+                            <option>3-10 Years</option>
+                            <option>More than 10 years</option>
+                          </select>
+                        </div>
+                        <div class="col-md-3">
+                          <label for="inputState" class="form-label">Gender</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                          </select>
+                        </div>
+                        <div class="col-12">
+                          <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
+                          <input type="submit" value="Start Recording!">
+                        </div>
                     </form>
                 </div>
                 <button id="submit" type="button">Click Me!</button>

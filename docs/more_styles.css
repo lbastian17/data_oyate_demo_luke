@@ -72,8 +72,8 @@ color: white;
 
 .main_text {
     text-align:center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 50px;
     margin-bottom: 30px;
     padding: 10px;
@@ -88,14 +88,37 @@ color: white;
     color: white;
 }
 
+.footer {
+    text-align:center;
+}
+
+/* Positioning of the index page form */
+
 .form_format {
-    text-align:left;
+    text-align:center;
     margin-left: 15%;
     margin-right: 15%;
 }
 
+/* Tweaking bootstrap style formats */
+
 .form_format label {
     color: white;
+}
+
+.form-label {
+    margin-bottom: 0%;
+    color: white;
+    font-weight: bold;
+}
+
+.form-select {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.g-3, .gy-3 {
+    --bs-gutter-y: .1rem;
 }
 
 input[type=text], select {
@@ -110,7 +133,9 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    width: 70%;
+    width: 40%;
+    max-width: 200px;
+    min-width: 144px;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -124,6 +149,3 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-.footer {
-    text-align:center;
-}
