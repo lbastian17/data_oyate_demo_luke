@@ -41,11 +41,11 @@
             <div class="main_text">
                 <h1>Hello Makah Community Members!</h1>
                 <p> We are working on creating an automatic speech recognition (ASR) model for Makah in order to assist in language 
-                    preservation efforts. This is the technology behind voice assistants like Siri and educational apps like Duolingo. With 
+                    preservation efforts! This is the technology behind voice assistants like Siri and educational apps like Duolingo. With 
                     enough audio data, similar features and other preservation tools can be created for Makah!!
                     See the About section to learn more about how your audio data is being used (and how it's being protected).
                 </p>
-                <p>If you're ready to begin recording, please enter your name and email below!</p>
+                <p>If you're ready to begin recording, please enter the following information below.</p>
                 
                 <div class=form_format>
                     <form class="row g-3">
@@ -62,8 +62,8 @@
                           <input type="text" id="email" name="email" placeholder="name@example.com" class="form-control">
                         </div>
                         <div class="col-md-4">
-                          <label for="inputZip" class="form-label">Years Speaking Makah</label>
-                          <select id="inputState" class="form-select">
+                          <label for="yearsSpoken" class="form-label">Years Spoken</label>
+                          <select id="yearsSpoken" class="form-select">
                             <option selected>Choose...</option>
                             <option>Less than 1 Year</option>
                             <option>1-3 Years</option>
@@ -72,8 +72,8 @@
                           </select>
                         </div>
                         <div class="col-md-3">
-                          <label for="inputState" class="form-label">Gender</label>
-                          <select id="inputState" class="form-select">
+                          <label for="gender" class="form-label">Gender</label>
+                          <select id="gender" class="form-select">
                             <option selected>Choose...</option>
                             <option>Male</option>
                             <option>Female</option>
@@ -101,17 +101,18 @@
         console.log("I am Luke");
 
         var counter = 0;
-        var emailInput = $("#email");
         $("#submit").click(function(){
             var input = {};
 
             console.log("submit: "+counter)
             counter ++;
 
-            console.log(emailInput.val());
-            input.email = emailInput.val();
+            console.log($("#email").val());
             input.fname = $("#fname").val()
             input.lname = $("#lname").val()
+            input.email = $("#email").val()
+            input.yearsSpoken = $("#yearsSpoken").val()
+            input.gender = $("#gender").val()
 
             console.log(input)
         })
