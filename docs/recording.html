@@ -40,14 +40,55 @@
             <div class="main_text">
                 <h2><u>Recording Center</u></h2>
                 <p>
-                    Thanks for working with us! Below is a phrase we would like you to record. Once you do, you will then be able to play it back to ensure 
-                    that you are satisfied with your pronounciation. It is alright if there
+                    Thanks for working with us! Please fill in the following information in order to get your first phrase. Once you do, you will then be able to make recordings
+                    and play them back to ensure that you are satisfied with your pronounciation. It is alright if there
                     is a little backround noise - that actually makes our model even stronger! If you are satisfied, delete all recordings except the one you want to submit
-                    and press submit. Then record another phrase if you wish! 
+                    and then press submit. Then record another phrase if you wish! 
                 </p><p>
                     Note: It is best to only do recordings for <b>no more than 15-20 minutes</b> at a time. Clarity of pronounciation may
                     decrease for those who record for too long so be sure to take breaks!!
                 </p>
+                <div class=form_format>
+                  <form class="row g-3">
+                      <div class="col-md-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" id="email" name="email" placeholder="name@example.com" class="form-control">
+                      </div>
+                      <div class="col-md-2">
+                        <label for="age" class="form-label">Age</label>
+                        <input type="text" class="form-control" id="age" name="age" placeholder="##">
+                      </div>
+                      <div class="col-md-3">
+                        <label for="yearsSpoken" class="form-label">Years Spoken</label>
+                        <select id="yearsSpoken" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>Less than 1 Year</option>
+                          <option>1-3 Years</option>
+                          <option>3-10 Years</option>
+                          <option>More than 10 years</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="gender" class="form-label">Gender</label>
+                        <select id="gender" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>Male</option>
+                          <option>Female</option>
+                          <option>Non-binary</option>
+                          <option>No Answer</option>
+                        </select>
+                      </div>
+                      <!-- <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        
+                      </div> -->
+                  </form>
+                  <button id="login">Log Information</button>
+              </div>
+
+              <br>
+              <p id="makah_phrase" class="mx-5 fs-1">Log in to get your prompt</p>
+
                 <div class="wrapper px-5 text-center">
                   <section class="main-controls">
                     <canvas class="visualizer" height="60px"></canvas>
@@ -76,6 +117,7 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="apps.js"></script> 
+    <script src="get_data.js"></script> 
 
 </body>
 </html>

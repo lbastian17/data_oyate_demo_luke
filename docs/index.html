@@ -43,47 +43,11 @@
                 <p> We are working on creating an automatic speech recognition (ASR) model for Makah in order to assist in language 
                     preservation efforts! This is the technology behind voice assistants like Siri and educational apps like Duolingo. With 
                     enough audio data, similar features and other preservation tools can be created for Makah!!
+                </p><p>
                     See the About section to learn more about how your audio data is being used (and how it's being protected).
-                </p>
-                <p>If you're ready to begin recording, please enter the following information below.</p>
-                
-                <div class=form_format>
-                    <form class="row g-3" action="recording.html">
-                        <div class="col-md-4">
-                          <label for="email" class="form-label">Email</label>
-                          <input type="text" id="email" name="email" placeholder="name@example.com" class="form-control">
-                        </div>
-                        <div class="col-md-2">
-                          <label for="age" class="form-label">Age</label>
-                          <input type="text" class="form-control" id="age" name="age" placeholder="##">
-                        </div>
-                        <div class="col-md-3">
-                          <label for="yearsSpoken" class="form-label">Years Spoken</label>
-                          <select id="yearsSpoken" class="form-select">
-                            <option selected>Choose...</option>
-                            <option>Less than 1 Year</option>
-                            <option>1-3 Years</option>
-                            <option>3-10 Years</option>
-                            <option>More than 10 years</option>
-                          </select>
-                        </div>
-                        <div class="col-md-3">
-                          <label for="gender" class="form-label">Gender</label>
-                          <select id="gender" class="form-select">
-                            <option selected>Choose...</option>
-                            <option>Male</option>
-                            <option>Female</option>
-                            <option>Non-binary</option>
-                            <option>No Answer</option>
-                          </select>
-                        </div>
-                        <div class="col-12">
-                          <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
-                          <input type="submit" value="Start Recording!">
-                        </div>
-                    </form>
-                </div>
-                <button id="submit" type="button">Click Me!</button>
+                    Click below when you are ready to begin recording!</p>
+              
+                <a href="recording.html"><input type="submit" value="Start Recording!"></a>
             </div>
 
             <div class="footer">
@@ -96,18 +60,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script>
         console.log("Neah Bay is super pretty!");
-
-        $("#submit").click(function(){
-            var input = {};
-
-            input.email = $("#email").val();
-            input.age = $("#age").val();
-            input.yearsSpoken = $("#yearsSpoken").val();
-            input.gender = $("#gender").val();
-            input.time = +new Date(); // time just in miliseconds
-
-            console.log(input)
-        })
     </script>
 </body>
 </html>
