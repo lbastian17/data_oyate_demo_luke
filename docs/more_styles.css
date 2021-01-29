@@ -155,6 +155,10 @@ input[type=submit]:hover {
 
 /* Specific to the recording page formatting */
 
+.visualizer {
+    width: 100%;
+}
+
 audio {
     width: 80%;
     min-width: 225px;
@@ -166,11 +170,14 @@ button {
     border-width: 0px;
     color: white;
     background-color: blue;
+    padding: 8px 12px;
+    margin: 0px 2px;
 }
 
 button:disabled {
-    border-radius: 8px;
-    border-width: 0px;
-    color: white;
     background-color: gray;
+}
+
+.clip p {
+    margin-bottom: .5rem;
 }
