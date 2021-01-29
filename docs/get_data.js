@@ -44,6 +44,8 @@ function getRandomInt(max) {
     console.log(input);
 
     logged_in = true;
+    document.getElementById("submit1").disabled = false;
+    document.getElementById("skip").disabled = false;
 
     getPrompt();
 
@@ -60,7 +62,7 @@ function getRandomInt(max) {
     console.log(input)
   })
 
-  $("#new_prompt").click(function(){ //generates new prompt when button is pushed
+  $("#skip").click(function(){ //generates new prompt when button is pushed
     if (logged_in){
       getPrompt(); 
     }
