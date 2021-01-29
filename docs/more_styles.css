@@ -163,7 +163,7 @@ input[type=submit]:hover {
 
 audio {
     width: 80%;
-    min-width: 225px;
+    min-width: 215px;
     max-width: 300px;
 }
 
