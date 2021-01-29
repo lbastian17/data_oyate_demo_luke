@@ -153,3 +153,10 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+/* Specific to the recording page formatting */
+
+audio {
+    width: 80%;
+    min-width: 225px;
+    max-width: 300px;
+}
