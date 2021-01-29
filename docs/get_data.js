@@ -61,6 +61,8 @@ function getRandomInt(max) {
     input.recordings.push(current_recording);
     console.log(input)
 
+    let evtTgt = e.target;
+    evtTgt.parentNode.parentNode.removeChild(evtTgt.parentNode);
     getPrompt();
   })
 
