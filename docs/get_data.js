@@ -60,6 +60,8 @@ function getRandomInt(max) {
     current_recording.phrase_id = current_phrase_id;
     input.recordings.push(current_recording);
     console.log(input)
+
+    getPrompt();
   })
 
   $("#skip").click(function(){ //generates new prompt when button is pushed
