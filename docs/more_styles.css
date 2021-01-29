@@ -31,7 +31,7 @@ font-size: 0.9rem;
 
 .nav-link-wrapper {
 height: 22px;
-border-bottom: 1px solid transparent;
+border-bottom: 1px solid rgb(92, 92, 92);
 transition: border-bottom 0.5s;
 }
 
@@ -135,6 +135,8 @@ input[type=text], select {
     box-sizing: border-box;
     background-color: white
 }
+
+/* Main Button Page */
 
 input[type=submit] {
     width: 40%;
