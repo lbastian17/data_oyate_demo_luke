@@ -187,3 +187,10 @@ button:disabled {
 .clip p {
     margin-bottom: .5rem;
 }
+
+/* Google Form */
+iframe {
+    border: 0;
+    width: 100%;
+    max-width: 640px;
+}
