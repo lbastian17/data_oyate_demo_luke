@@ -1,12 +1,23 @@
 {
-    "set_1": [
+    "set_1" : [
+        {"phrase": "kaˑɬkintapimɬapi", "id": "phrase1", "meaning": "strawberry up in the air"},
+        {"phrase": "cacaˑpkʷapuƛ", "id": "phrase2", "meaning": "each bowed their head"},
+        {"phrase": "qʷidiččaʔaˑtx", "id": "phrase3", "meaning": "Makah people"},
+        {"phrase": "yaqeyiqqey", "id": "phrase4", "meaning": "so it happened"},
+        {"phrase": "huʔadakšiƛdu", "id": "phrase5", "meaning": "we got it back"},
+        {"phrase": "c̓ix̣atiˑɬ", "id": "phrase6", "meaning": "making arrows"},
+        {"phrase": "ʔaˑdakʷiˑɬčʔi", "id": "phrase5", "meaning": "you go build a fire!"},
+        {"phrase": "tup̓aˑyix̣a·ƛitwaˑad", "id": "phrase6", "meaning": "he drowned in salt water [they say]"},
+        {"phrase": "p̓uq̓aqƛ", "id": "phrase7", "meaning": "feather mattress"}
+    ],
+    "set_2": [
         {"phrase" : "I like money", "id" : "i_like_money_phrase"},
         {"phrase" : "I like cows", "id" : "i_like_cows_phrase"},
         {"phrase" : "I like cats", "id" : "i_like_cats_phrase"},
         {"phrase" : "I like dogs", "id" : "i_like_dogs_phrase"}
     ],
 
-    "set 2" : [
+    "set 3" : [
         {"phrase" : "he like money", "id" : "he_like_money_phrase"},
         {"phrase" : "she like cows", "id" : "she_like_cows_phrase"},
         {"phrase" : "they like cats", "id" : "they_like_cats_phrase"},
